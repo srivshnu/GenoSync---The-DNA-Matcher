@@ -353,7 +353,7 @@ DNA-SEQUENCE-MATCHING/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/dna-sequence-matching.git
+git clone https://github.com/srivshnu/GenoSync---The-DNA-Matcher.git
 cd dna-sequence-matching
 
 # 2. Install dependencies
@@ -372,26 +372,6 @@ streamlit run app.py
 NCBI_EMAIL=you@example.com
 NCBI_API_KEY=your_ncbi_api_key_here
 ```
-
----
-
-## Deployment
-
-This app is designed for **Streamlit Cloud** (free tier supported).
-
-1. Push your code to GitHub (**without** `.env`)
-2. Go to [share.streamlit.io](https://share.streamlit.io) and connect your repo
-3. Set `app.py` as the entry point
-4. Under **Advanced Settings → Secrets**, add:
-
-```toml
-NCBI_EMAIL = "you@example.com"
-NCBI_API_KEY = "your_key_here"
-```
-
-5. Deploy 🚀
-
----
 
 ## Limitations & Caveats
 
