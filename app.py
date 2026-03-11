@@ -36,7 +36,7 @@ def get_species_flow(label, key):
     key must be unique per instance ("A" / "B") — without it, both panels
     share the same Streamlit widget state and overwrite each other.
     """
-    common   = st.text_input(label, placeholder="e.g. Dog, Hen, Tiger", key=f"input_{key}")
+    common   = st.text_input(label, placeholder="e.g. Dog, Pigeons , Tiger", key=f"input_{key}")
     org_type = st.selectbox(
         "Organism type",
         ["default", "animal", "plant", "fungus"],
