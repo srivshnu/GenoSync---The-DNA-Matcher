@@ -3,7 +3,8 @@
 > **How similar are two species, genetically?** This app fetches real DNA sequences from NCBI's public database and runs two classic bioinformatics algorithms to answer that question — with scores, alignments, and visual comparisons.
 
 ---
-
+VISIT :
+https://genosync---the-dna-matcher-uszpk6jhtdr2x3idzdiqgn.streamlit.app/
 ## 📖 Table of Contents
 
 - [What This App Does](#what-this-app-does)
